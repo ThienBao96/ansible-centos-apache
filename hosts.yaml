@@ -1,0 +1,8 @@
+letsencrypt:
+  hosts:
+    first_host:
+      ansible_ssh_host: 54.169.223.84
+      ansible_ssh_user: ec2-user
+      ansible_ssh_private_key_file: ~/.ssh/my-blog-key.pem 
+      letsencrypt_email: buithienbao96@gmail.com
+      domain_name: devshare.tk
